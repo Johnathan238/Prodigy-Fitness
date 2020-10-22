@@ -8,13 +8,13 @@ const Header = () => {
 
       <Nav />
       <Link to='/' exact className="Home-Link">
-        <h1>Vehicle-Stats-2.0</h1>
+        <h1>PRODIGY FITNESS </h1>
       </Link>
-      <div className="header--links">
+      {/* <div className="header--links">
         <Link to="/Login">
           <p className="header--login">Login</p>
         </Link>
-      </div>
+      </div> */}
     </header>
   )
 }

@@ -1,20 +1,16 @@
-.image { 
-  position: relative; 
-  width: 100%; /* for IE 6 */
+.Before--After{
+  vertical-align: right;
 }
 
-h2 { 
- position: absolute; 
- top: 300px; 
- left: 0; 
- width: 100%; 
+span{
+  float: right;
+  display: grid;
+  grid-template-columns:  3em 3fr 5em;
+  grid-template-rows: 2fr 3fr;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr; */
 }
 
-h2 span { 
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px; 
-}
+
+
