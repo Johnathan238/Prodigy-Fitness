@@ -1,4 +1,4 @@
-.Before--After{
+/* .Before--After{
   vertical-align: right;
 }
 
@@ -6,11 +6,16 @@ span{
   float: right;
   display: grid;
   grid-template-columns:  3em 3fr 5em;
-  grid-template-rows: 2fr 3fr;
-  /* display: grid;
+  grid-template-rows: 2fr 2fr;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr; */
+  grid-template-rows: 1fr 1fr;
+} */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Encode Sans Expanded" , sans-serif;
 }
-
 
 
