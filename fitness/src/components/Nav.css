@@ -1,6 +1,6 @@
 .nav{
-  background-color: #0000;
-  height: 80px;
+  background-color: #84b2ca;
+  height: 70px;
   /* margin-top: -80px; */
   display: flex;
   justify-content: justify;
@@ -19,6 +19,7 @@
 }
 
 .header--create{
+  color: black;
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -27,4 +28,42 @@
   padding: 0 24px;
   max-width: 1100px;
   text-decoration: none;
+}
+
+.Mobile--Icon{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .Mobile--Icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
+
+.Nav--Menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+}
+
+@media screen and (max-width: 768px){
+  .Nav--Menu{
+    display: none;
+  }
+}
+
+.Nav--Item{
+  height: 80px;
+}
+
+.Nav--Links{
+  
 }
