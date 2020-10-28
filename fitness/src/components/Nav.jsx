@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { FaBars } from 'react-icons/fa'
-import './Nav.css'
+// import { Link } from 'react-router-dom'
+// import { FaBars } from 'react-icons/fa'
+
 
 const Nav = () => {
   return (
     <nav className="nav">
 
 
-      <div className="Mobile--Icon">
+      {/* <div className="Mobile--Icon">
         <FaBars />
       </div>
 
@@ -16,7 +16,7 @@ const Nav = () => {
         <div className="Nav--Item">
 
           <div className="Nav--Links">
-            <Link to="/Plans">
+            <Link to="/">
               <p className="header--create">About</p>
             </Link>
 
@@ -31,7 +31,7 @@ const Nav = () => {
           </div>
 
         </div>
-      </div>
+      </div> */}
 
 
     </nav>
@@ -39,10 +39,3 @@ const Nav = () => {
 }
 
 export default Nav
-
-  // < Link to = "/Plans" >
-  //   <p className="header--create">Plans</p>
-  //           </Link >
-  // <Link to="/Schedule With Me">
-  //   <p className="header--create">Schedule With Me</p>
-  // </Link>
