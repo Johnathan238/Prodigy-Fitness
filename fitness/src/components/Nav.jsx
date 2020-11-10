@@ -1,41 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
 // import { FaBars } from 'react-icons/fa'
 
 
-const Nav = () => {
-  return (
-    <nav className="nav">
-
-
-      {/* <div className="Mobile--Icon">
-        <FaBars />
-      </div>
-
-      <div className="Nav--Menu">
-        <div className="Nav--Item">
-
-          <div className="Nav--Links">
-            <Link to="/">
-              <p className="header--create">About</p>
-            </Link>
-
-            <Link to="/Plans">
-              <p className="header--create">Plans</p>
-            </Link>
-
-            <Link to="/Schedule With Me">
-              <p className="header--create">Schedule With Me</p>
-            </Link>
-
-          </div>
+class Nav extends Component {
+  render() {
+    return (
+      <nav className="NavBar--Items">
+        <h1 className="NavBar--Logo">PRODIGY FITNESS</h1>
+        <div className="menu--icon">
 
         </div>
-      </div> */}
 
+        <ul>
+          <li>
 
-    </nav>
-  )
+          </li>
+        </ul>
+      </nav>
+
+    )
+
+  }
 }
 
 export default Nav
