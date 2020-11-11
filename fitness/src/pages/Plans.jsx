@@ -12,7 +12,7 @@ export default class Plans extends Component {
           <h2>200-Plan: 10% Discount YOU PAY: $180</h2>
           <h3>8 SESSIONS</h3>
           <h4>*MONTHLY PACKAGE*</h4>
-          <ul>
+          <ul className="Plan--Details">
             <li>2 30-minute sessions per week for 4 weeks</li>
             <li>1 on 1 coaching; Online or In-Person </li>
             <li>Nutrition guide/tips </li>
@@ -26,7 +26,7 @@ export default class Plans extends Component {
           <h2>440-Plan: 15% Discount YOU PAY: $374</h2>
           <h3>8 SESSIONS</h3>
           <h4>*MONTHLY PACKAGE*</h4>
-          <ul>
+          <ul className="Plan--Details">
             <li>2 30-minute sessions per week for 4 weeks</li>
             <li>1 on 1 coaching; Online or In-Person </li>
             <li>Nutrition guide/tips </li>
@@ -40,7 +40,7 @@ export default class Plans extends Component {
           <h2>400-Plan: 15% Discount YOU PAY: $512</h2>
           <h3>16 SESSIONS</h3>
           <h4>*MONTHLY PACKAGE*</h4>
-          <ul>
+          <ul className="Plan--Details">
             <li>4 30-minute sessions per week for 4 weeks </li>
             <li>1 on 1 coaching; Online or In-Person </li>
             <li>Nutrition guide/tips </li>
@@ -54,7 +54,7 @@ export default class Plans extends Component {
           <h2>880-Plan: 25% Discount YOU PAY: $660 *MOST POPULAR*</h2>
           <h3>16 SESSIONS</h3>
           <h4>*MONTHLY PACKAGE*</h4>
-          <ul>
+          <ul className="Plan--Details">
             <li> 60-minute sessions per week for 4 weeks </li>
             <li>1 on 1 coaching; Online or In-Person </li>
             <li>Nutrition guide/tips </li>
