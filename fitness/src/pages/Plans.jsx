@@ -7,8 +7,9 @@ const Plans = () => {
   const cardInfo = [
     {
       image: '',
-      title1: '200-Plan: 10% Discount YOU PAY: $180',
-      title2: '8 SESSIONS',
+      title: '200-Plan: 10% Discount YOU PAY: $180',
+      title1: '8 SESSIONS',
+      text: '*MONTHLY PACKAGE*',
       list1: '2 30-minute sessions per week for 4 weeks',
       list2: '1 on 1 coaching; Online or In-Person',
       list3: 'Nutrition guide/tips ',
@@ -16,6 +17,18 @@ const Plans = () => {
       list5: '24/7 access to me for checkup, support, and motivation',
       list6: 'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
+    {
+      image: '',
+      title: '440-Plan: 15% Discount YOU PAY: $374',
+      title1: '8 SESSIONS',
+      text: '*MONTHLY PACKAGE*',
+      list1: '2 30-minute sessions per week for 4 weeks',
+      list2: '1 on 1 coaching; Online or In-Person',
+      list3: 'Nutrition guide/tips ',
+      list4: 'Accountability',
+      list5: '24/7 access to me for checkup, support, and motivation',
+      list6: 'Progress tracking every 2 weeks: weight assessed, progress photos taken',
+    }
   ]
 
   const renderCard = (card, index) => {
@@ -32,11 +45,10 @@ const Plans = () => {
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180?text=Image cap" kay={index} className="Box"/>
         <Card.Body>
+          <Card.Title>{card.title}</Card.Title>
           <Card.Title>{card.title1}</Card.Title>
-          <Card.Title>{card.title2}</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            {card.text}
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
