@@ -15,7 +15,8 @@ const Plans = () => {
       list3: 'Nutrition guide/tips ',
       list4: 'Accountability',
       list5: '24/7 access to me for checkup, support, and motivation',
-      list6: 'Progress tracking every 2 weeks: weight assessed, progress photos taken',
+      list6:
+        'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
     {
       image: '',
@@ -27,7 +28,8 @@ const Plans = () => {
       list3: 'Nutrition guide/tips ',
       list4: 'Accountability',
       list5: '24/7 access to me for checkup, support, and motivation',
-      list6: 'Progress tracking every 2 weeks: weight assessed, progress photos taken',
+      list6:
+        'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
     {
       image: '',
@@ -39,7 +41,8 @@ const Plans = () => {
       list3: 'Nutrition guide/tips ',
       list4: 'Accountability',
       list5: '24/7 access to me for checkup, support, and motivation',
-      list6: 'Progress tracking every 2 weeks: weight assessed, progress photos taken', 
+      list6:
+        'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
     {
       image: '',
@@ -51,22 +54,30 @@ const Plans = () => {
       list3: 'Nutrition guide/tips ',
       list4: 'Accountability',
       list5: '24/7 access to me for checkup, support, and motivation',
-      list6: 'Progress tracking every 2 weeks: weight assessed, progress photos taken', 
+      list6:
+        'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
+  ]
+
+  const HomePlans = [
     {
       image: '',
       title: 'PERSONALIZED WORKOUT PLANS',
-      text: '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65 (do not add this part in but this is the link to use for the questions, make the questions AUTO SUBMIT and results show up after completion… https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ) ',
-      list1: 'HOME *ONE TIME FEE OF $23*',
-      list2: 'GYM *ONE TIME FEE OF $27*',
+      text:
+        '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65 (do not add this part in but this is the link to use for the questions, make the questions AUTO SUBMIT and results show up after completion… https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ) ',
+      list: 'HOME *ONE TIME FEE OF $23*',
+      list: 'GYM *ONE TIME FEE OF $27*',
     },
     {
       image: '',
       title: 'HOME',
-      text: '1 on 1 Training: For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
-      list1: 'Online Coaching: For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
-      list2: 'Personalized Workout Plans: For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
-    }
+      text:
+        '1 on 1 Training: For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
+      list:
+        'Online Coaching: For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
+      list:
+        'Personalized Workout Plans: For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
+    },
   ]
 
   const renderCard = (card, index) => {
@@ -81,13 +92,16 @@ const Plans = () => {
       // </Card>
 
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" kay={index} className="Box"/>
+        <Card.Img
+          variant="top"
+          src="holder.js/100px180?text=Image cap"
+          kay={index}
+          className="Box"
+        />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Title>{card.title1}</Card.Title>
-          <Card.Text>
-            {card.text}
-          </Card.Text>
+          <Card.Text>{card.text}</Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
           <ListGroupItem>{card.list1}</ListGroupItem>
@@ -105,98 +119,39 @@ const Plans = () => {
       </Card>
     )
   }
+  
 
-  return <div className="grid">{cardInfo.map(renderCard)}</div>
+  const renderHomeCard = (card, index) => {
+    return (
+      <Card style={{ width: '18rem' }}>
+        <Card.Img 
+        variant="top" 
+        src="holder.js/100px180?text=Image cap" 
+        key={index}
+        className="Boz"
+        />
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
+          <ListGroupItem>Cras justo odio</ListGroupItem>
+          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+          <ListGroupItem>Vestibulum at eros</ListGroupItem>
+        </ListGroup>
+        <Card.Body>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+      </Card>
+    )
+  }
+
+return <div className="grid">{cardInfo.map(renderCard)} {HomePlans.map(renderHomeCard)}</div>
+
 }
-
-//  extends Component {
-//   render() {
-//     return (
-//       <div className="Home">
-//         <h1>Are You Ready to Become A New You!</h1>
-
-//         <div className="Plan--1">
-//           <h2>200-Plan: 10% Discount YOU PAY: $180</h2>
-//           <h3>8 SESSIONS</h3>
-//           <h4>*MONTHLY PACKAGE*</h4>
-//           <ul className="Plan--Details">
-//             <li>2 30-minute sessions per week for 4 weeks</li>
-//             <li>1 on 1 coaching; Online or In-Person </li>
-//             <li>Nutrition guide/tips </li>
-//             <li>Accountability </li>
-//             <li>24/7 access to me for checkup, support, and motivation </li>
-//             <li>
-//               Progress tracking every 2 weeks: weight assessed, progress photos
-//               taken{' '}
-//             </li>
-//           </ul>
-//         </div>
-
-//         <div className="Plan--2">
-//           <h2>440-Plan: 15% Discount YOU PAY: $374</h2>
-//           <h3>8 SESSIONS</h3>
-//           <h4>*MONTHLY PACKAGE*</h4>
-//           <ul className="Plan--Details">
-//             <li>2 30-minute sessions per week for 4 weeks</li>
-//             <li>1 on 1 coaching; Online or In-Person </li>
-//             <li>Nutrition guide/tips </li>
-//             <li>Accountability </li>
-//             <li>24/7 access to me for checkup, support, and motivation </li>
-//             <li>
-//               Progress tracking every 2 weeks: weight assessed, progress photos
-//               taken{' '}
-//             </li>
-//           </ul>
-//         </div>
-
-//         <div className="Plan--3">
-//           <h2>400-Plan: 15% Discount YOU PAY: $340</h2>
-//           <h3>16 SESSIONS</h3>
-//           <h4>*MONTHLY PACKAGE*</h4>
-//           <ul className="Plan--Details">
-//             <li>4 30-minute sessions per week for 4 weeks </li>
-//             <li>1 on 1 coaching; Online or In-Person </li>
-//             <li>Nutrition guide/tips </li>
-//             <li>Accountability </li>
-//             <li>24/7 access to me for checkup, support, and motivation </li>
-//             <li>
-//               Progress tracking every 2 weeks: weight assessed, progress photos
-//               taken{' '}
-//             </li>
-//           </ul>
-//         </div>
-
-//         <div className="Plan--4">
-//           <h2>880-Plan: 25% Discount YOU PAY: $660 *MOST POPULAR*</h2>
-//           <h3>16 SESSIONS</h3>
-//           <h4>*MONTHLY PACKAGE*</h4>
-//           <ul className="Plan--Details">
-//             <li> 60-minute sessions per week for 4 weeks </li>
-//             <li>1 on 1 coaching; Online or In-Person </li>
-//             <li>Nutrition guide/tips </li>
-//             <li>Accountability </li>
-//             <li>24/7 access to me for checkup, support, and motivation </li>
-//             <li>
-//               Progress tracking every 2 weeks: weight assessed, progress photos
-//               taken{' '}
-//             </li>
-//           </ul>
-//         </div>
-
-//         <Card style={{ width: '18rem' }}>
-//           <Card.Img variant="top" src="holder.js/100px180" />
-//           <Card.Body>
-//             <Card.Title>Card Title</Card.Title>
-//             <Card.Text>
-//               Some quick example text to build on the card title and make up the
-//               bulk of the card's content.
-//             </Card.Text>
-//             <Button variant="primary">Go somewhere</Button>
-//           </Card.Body>
-//         </Card>
-//       </div>
-//     )
-//   }
-// }
 
 export default Plans
