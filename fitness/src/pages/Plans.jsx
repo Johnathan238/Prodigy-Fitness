@@ -65,17 +65,17 @@ const Plans = () => {
       title: 'PERSONALIZED WORKOUT PLANS',
       text:
         '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65 (do not add this part in but this is the link to use for the questions, make the questions AUTO SUBMIT and results show up after completion… https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ) ',
-      list: 'HOME *ONE TIME FEE OF $23*',
-      list: 'GYM *ONE TIME FEE OF $27*',
+      list1: 'HOME *ONE TIME FEE OF $23*',
+      list2: 'GYM *ONE TIME FEE OF $27*',
     },
     {
       image: '',
       title: 'HOME',
       text:
         '1 on 1 Training: For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
-      list:
+      list1:
         'Online Coaching: For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
-      list:
+      list2:
         'Personalized Workout Plans: For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
     },
   ]
@@ -131,16 +131,14 @@ const Plans = () => {
         className="Boz"
         />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>{card.title}</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            {card.text}
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>Cras justo odio</ListGroupItem>
-          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-          <ListGroupItem>Vestibulum at eros</ListGroupItem>
+          <ListGroupItem>{card.list1}</ListGroupItem>
+          <ListGroupItem>{card.list2}</ListGroupItem>
         </ListGroup>
         <Card.Body>
           <Card.Link href="#">Card Link</Card.Link>
