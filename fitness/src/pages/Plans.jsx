@@ -1,10 +1,9 @@
+import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import { Component } from 'react'
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Card, CardDeck, ListGroup, ListGroupItem } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import './Plans.css'
-
-
 
 const Plans = () => {
   const cardInfo = [
@@ -83,6 +82,7 @@ const Plans = () => {
     },
   ]
 
+
   const renderCard = (card, index) => {
     return (
       // <Card style={{ width: '18rem' }} key={index} className="Box">
@@ -93,65 +93,71 @@ const Plans = () => {
       //     <Button variant="primary">Go somewhere</Button>
       //   </Card.Body>
       // </Card>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img
-          variant="top"
-          src="holder.js/100px180?text=Image cap"
-          kay={index}
-          className="Box"
-        />
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Title>{card.title1}</Card.Title>
-          <Card.Text>{card.text}</Card.Text>
-        </Card.Body>
-        <ListGroup className="list-group-flush">
-          <ListGroupItem>{card.list1}</ListGroupItem>
-          <ListGroupItem>{card.list2}</ListGroupItem>
-          <ListGroupItem>{card.list2}</ListGroupItem>
-          <ListGroupItem>{card.list3}</ListGroupItem>
-          <ListGroupItem>{card.list4}</ListGroupItem>
-          <ListGroupItem>{card.list5}</ListGroupItem>
-          <ListGroupItem>{card.list6}</ListGroupItem>
-        </ListGroup>
-        <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
-      </Card>
+      <CardDeck>
+        <Card 
+        style={{ width: '18rem' }}>
+          <Card.Img
+            variant="top"
+            src="holder.js/100px180?text=Image cap"
+            kay={index}
+            className="Box"
+          />
+          <Card.Body>
+            <Card.Title>{card.title}</Card.Title>
+            <Card.Title>{card.title1}</Card.Title>
+            <Card.Text>{card.text}</Card.Text>
+          </Card.Body>
+          <ListGroup className="list-group-flush">
+            <ListGroupItem>{card.list1}</ListGroupItem>
+            <ListGroupItem>{card.list2}</ListGroupItem>
+            <ListGroupItem>{card.list2}</ListGroupItem>
+            <ListGroupItem>{card.list3}</ListGroupItem>
+            <ListGroupItem>{card.list4}</ListGroupItem>
+            <ListGroupItem>{card.list5}</ListGroupItem>
+            <ListGroupItem>{card.list6}</ListGroupItem>
+          </ListGroup>
+          <Card.Body>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
+      </CardDeck>
     )
   }
-  
 
-  const renderHomeCard = (card, index) => {
+  const renderHomeCard = (card, idx) => {
     return (
-      <Card style={{ width: '18rem' }}>
-        <Card.Img 
-        variant="top" 
-        src="holder.js/100px180?text=Image cap" 
-        key={index}
-        className="Boz"
-        />
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>
-            {card.text}
-          </Card.Text>
-        </Card.Body>
-        <ListGroup className="list-group-flush">
-          <ListGroupItem>{card.list1}</ListGroupItem>
-          <ListGroupItem>{card.list2}</ListGroupItem>
-        </ListGroup>
-        <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
-      </Card>
+      <CardDeck>
+        <Card 
+        style={{ width: '18rem' }}>
+          <Card.Img
+            variant="top"
+            src="holder.js/100px180?text=Image cap"
+            key={idx}
+            className="Boz"
+          />
+          <Card.Body>
+            <Card.Title>{card.title}</Card.Title>
+            <Card.Text>{card.text}</Card.Text>
+          </Card.Body>
+          <ListGroup className="list-group-flush">
+            <ListGroupItem>{card.list1}</ListGroupItem>
+            <ListGroupItem>{card.list2}</ListGroupItem>
+          </ListGroup>
+          <Card.Body>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
+      </CardDeck>
     )
   }
 
-return <div className="grid">{cardInfo.map(renderCard)} {HomePlans.map(renderHomeCard)}</div>
-
+  return (
+    <div className="grid">
+      {cardInfo.map(renderCard)} {HomePlans.map(renderHomeCard)}
+    </div>
+  )
 }
 
 export default Plans
