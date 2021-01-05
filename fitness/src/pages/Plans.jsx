@@ -1,7 +1,7 @@
 import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import { Component } from 'react'
-import { Card, CardDeck, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Card, CardDeck, CardGroup, ListGroup, ListGroupItem } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import './Plans.css'
 
@@ -93,7 +93,7 @@ const Plans = () => {
       //     <Button variant="primary">Go somewhere</Button>
       //   </Card.Body>
       // </Card>
-      <CardDeck>
+      <Card>
         <Card 
         style={{ width: '18rem' }}>
           <Card.Img
@@ -121,13 +121,13 @@ const Plans = () => {
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
-      </CardDeck>
+      </Card>
     )
   }
 
   const renderHomeCard = (card, idx) => {
     return (
-      <CardDeck>
+      <Card>
         <Card 
         style={{ width: '18rem' }}>
           <Card.Img
@@ -149,7 +149,7 @@ const Plans = () => {
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
-      </CardDeck>
+      </Card>
     )
   }
 
