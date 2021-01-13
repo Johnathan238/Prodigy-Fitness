@@ -1,7 +1,6 @@
 import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
-import { Component } from 'react'
-import { Card, CardDeck, CardGroup, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Card,  ListGroup, ListGroupItem } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import './Plans.css'
 
@@ -85,14 +84,6 @@ const Plans = () => {
 
   const renderCard = (card, index) => {
     return (
-      // <Card style={{ width: '18rem' }} key={index} className="Box">
-      //   <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
-      //   <Card.Body>
-      //     <Card.Title>{card.title}</Card.Title>
-      //     <Card.Text>{card.text}</Card.Text>
-      //     <Button variant="primary">Go somewhere</Button>
-      //   </Card.Body>
-      // </Card>
       <Card>
         <Card 
         style={{ width: '18rem' }}>

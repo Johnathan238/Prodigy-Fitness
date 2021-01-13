@@ -34,11 +34,12 @@ const Header = () => {
             <li className="nav__item">Plans</li>
           </Link>
 
-          <Link to='/Schedule-With-Me'>
-            <li className="nav__item">Schedule With Me</li>
-          </Link>
+          
+            <li className="nav__item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank">Schedule With Me</a></li>
+          
 
-          <li className="nav__item"><a href="https://docs.google.com/forms/d/e/1FAIpQLScnMSkRHUQGU7CoQuqW4Yqdef3c_1IEHpLNsBW5KIFOmaCGXA/viewform?usp=sf_link" target="_blank">Let's work together</a></li>
+          {/* <li className="nav__item"><a href="https://docs.google.com/forms/d/e/1FAIpQLScnMSkRHUQGU7CoQuqW4Yqdef3c_1IEHpLNsBW5KIFOmaCGXA/viewform?usp=sf_link" target="_blank">Let's work together</a></li> */}
+          
         </ul>
       </nav>
 
