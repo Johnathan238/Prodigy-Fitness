@@ -7,7 +7,7 @@ import './Plans.css'
 const Plans = () => {
   const cardInfo = [
     {
-      image: '',
+      
       title: '200-Plan: 20% Discount YOU PAY: $160',
       title1: '8 SESSIONS',
       text: '*MONTHLY PACKAGE*',
@@ -20,7 +20,7 @@ const Plans = () => {
         'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
     {
-      image: '',
+      
       title: '440-Plan: 35% Discount YOU PAY: $286',
       title1: '8 SESSIONS',
       text: '*MONTHLY PACKAGE*',
@@ -33,7 +33,7 @@ const Plans = () => {
         'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
     {
-      image: '',
+      
       title: '400-Plan: 28% Discount YOU PAY: $288',
       title1: '16 SESSIONS',
       text: '*MONTHLY PACKAGE*',
@@ -46,7 +46,7 @@ const Plans = () => {
         'Progress tracking every 2 weeks: weight assessed, progress photos taken',
     },
     {
-      image: '',
+      
       title: '880-Plan: 45% Discount YOU PAY: $484 *MOST POPULAR*',
       title1: '16 SESSIONS',
       text: '*MONTHLY PACKAGE*',
@@ -62,7 +62,7 @@ const Plans = () => {
 
   const HomePlans = [
     {
-      image: '',
+      
       title: 'PERSONALIZED WORKOUT PLANS',
       text:
         '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65 (do not add this part in but this is the link to use for the questions, make the questions AUTO SUBMIT and results show up after completion… https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ) ',
@@ -70,7 +70,7 @@ const Plans = () => {
       list2: 'GYM *ONE TIME FEE OF $27*',
     },
     {
-      image: '',
+      
       title: 'HOME',
       text:
         '1 on 1 Training: For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
@@ -87,12 +87,6 @@ const Plans = () => {
       <Card>
         <Card 
         style={{ width: '18rem' }}>
-          <Card.Img
-            variant="top"
-            src="holder.js/100px180?text=Image cap"
-            kay={index}
-            className="Box"
-          />
           <Card.Body className="CardHeader">
             <Card.Title>{card.title}</Card.Title>
             <Card.Title>{card.title1}</Card.Title>
@@ -121,12 +115,6 @@ const Plans = () => {
       <Card>
         <Card 
         style={{ width: '18rem' }}>
-          <Card.Img
-            variant="top"
-            src="holder.js/100px180?text=Image cap"
-            key={idx}
-            className="Boz"
-          />
           <Card.Body>
             <Card.Title>{card.title}</Card.Title>
             <Card.Text>{card.text}</Card.Text>

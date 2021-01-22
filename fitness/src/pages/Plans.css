@@ -20,9 +20,14 @@
 
 
 .card{
-    /* border: 1px solid #ccc;
-    padding: .5rem;
-    margin-bottom: 1.5rem; */
+    /* display: grid;
+    flex-direction: grid;
+    width: 65%;
+    margin-right: 2%;
+    padding-left: 5%;
+    background-color: #5295ffe0; */
+    grid-template-columns: 25px repeat(7, 1fr) 25px;
+    grid-template-rows: 1fr;
     grid-row-start: 1; 
     grid-row-end: 3;
     box-shadow: -4px 8px 12px 0px rgba(179,179,179,1);
