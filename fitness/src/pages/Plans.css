@@ -79,15 +79,25 @@
     transition: background-color 0.5s, box-shadow 0.5s;
 } */
 
-@media (min-width: 500px) {
+@media screen and (max-width: 768px) {
+
+    .grid,
     .card {
-        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
-@media (min-width: 900px) {
+@media screen and (max-width: 320px) {
+
+    .grid,
     .card {
-        grid-template-columns: repeat(4, 1fr);
+        width: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
