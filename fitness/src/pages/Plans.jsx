@@ -8,7 +8,7 @@ const Plans = () => {
   const cardInfo = [
     {
       image: '',
-      title: '200-Plan: 10% Discount YOU PAY: $180',
+      title: '200-Plan: 20% Discount YOU PAY: $160',
       title1: '8 SESSIONS',
       text: '*MONTHLY PACKAGE*',
       list1: '2 30-minute sessions per week for 4 weeks',
@@ -21,7 +21,7 @@ const Plans = () => {
     },
     {
       image: '',
-      title: '440-Plan: 15% Discount YOU PAY: $374',
+      title: '440-Plan: 35% Discount YOU PAY: $286',
       title1: '8 SESSIONS',
       text: '*MONTHLY PACKAGE*',
       list1: '2 30-minute sessions per week for 4 weeks',
@@ -34,7 +34,7 @@ const Plans = () => {
     },
     {
       image: '',
-      title: '400-Plan: 15% Discount YOU PAY: $512',
+      title: '400-Plan: 28% Discount YOU PAY: $288',
       title1: '16 SESSIONS',
       text: '*MONTHLY PACKAGE*',
       list1: '4 30-minute sessions per week for 4 weeks',
@@ -47,7 +47,7 @@ const Plans = () => {
     },
     {
       image: '',
-      title: '880-Plan: 25% Discount YOU PAY: $660 *MOST POPULAR*',
+      title: '880-Plan: 45% Discount YOU PAY: $484 *MOST POPULAR*',
       title1: '16 SESSIONS',
       text: '*MONTHLY PACKAGE*',
       list1: '4 60-minute sessions per week for 4 weeks',
@@ -93,7 +93,7 @@ const Plans = () => {
             kay={index}
             className="Box"
           />
-          <Card.Body>
+          <Card.Body className="CardHeader">
             <Card.Title>{card.title}</Card.Title>
             <Card.Title>{card.title1}</Card.Title>
             <Card.Text>{card.text}</Card.Text>
@@ -107,7 +107,7 @@ const Plans = () => {
             <ListGroupItem>{card.list5}</ListGroupItem>
             <ListGroupItem>{card.list6}</ListGroupItem>
           </ListGroup>
-          <Card.Body>
+          <Card.Body className="CardButton">
             <Card.Link href="#">Card Link</Card.Link>
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>

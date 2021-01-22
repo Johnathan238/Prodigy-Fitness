@@ -1,27 +1,89 @@
+* {
+    font-family: 'Lato';
+    /* color: #959595;
+    font-weight: 300;
+    font-size: 15px; */
+}
 
 .grid{
-    min-height: 100%;
+    /* min-height: 100%;
     display: grid;
     grid-auto-flow: row;
-    grid-gap: 5px;
+    grid-gap: 6px;
     justify-items: center;
-    align-items: center;
+    align-items: center; */
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 3rem 1rem 3rem 1rem;
 }
 
 
 .card{
-    grid-row-start: 1;
+    /* border: 1px solid #ccc;
+    padding: .5rem;
+    margin-bottom: 1.5rem; */
+    grid-row-start: 1; 
     grid-row-end: 3;
-    width: 300px;
+    box-shadow: -4px 8px 12px 0px rgba(179,179,179,1);
+    width: 230px;
+    border: 1px solid silver;
+    height: max-content;
+    margin: 0 15px;
+    transition: transform 0.5s;
+    color: #959595;
+    font-weight: 300;
+    font-size: 15px;
+
+    /* width: 300px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 0.5s;
-    animation: ease-in-out;
+    animation: ease-in-out; */
 }
 
 .card:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px 0px 
+    box-shadow: 0px 0px 8px blue;
+    transition: .5s;
+    transform: translate(10px,-5px);
+    /* transform: scale(1.04); */
+    /* box-shadow: 0px 0px 15px 0px  ---Don't uncomment this one--- */ 
+}
+
+.list-group-flush{
+    padding: 0 1rem;
+    color: #959595;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.CardHeader{
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+/* .CardButton{
+    width: 70%;
+    background-color: #369be6;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.5s;
+} */
+
+@media (min-width: 500px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 
