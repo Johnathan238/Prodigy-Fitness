@@ -65,7 +65,7 @@ const Plans = () => {
       
       title: 'PERSONALIZED WORKOUT PLANS',
       text:
-        '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65 (do not add this part in but this is the link to use for the questions, make the questions AUTO SUBMIT and results show up after completion… https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ) ',
+        '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65  https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/  ',
       list1: 'HOME *ONE TIME FEE OF $23*',
       list2: 'GYM *ONE TIME FEE OF $27*',
     },
@@ -125,7 +125,7 @@ const Plans = () => {
           </ListGroup>
           <Card.Body>
             <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ">*Take body type quiz*</Card.Link>
           </Card.Body>
         </Card>
       </Card>
