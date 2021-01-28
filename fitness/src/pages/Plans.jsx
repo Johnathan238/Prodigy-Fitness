@@ -1,4 +1,4 @@
-import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
+// import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import { Card,  ListGroup, ListGroupItem } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
@@ -101,9 +101,9 @@ const Plans = () => {
             <ListGroupItem>{card.list5}</ListGroupItem>
             <ListGroupItem>{card.list6}</ListGroupItem>
           </ListGroup>
-          <Card.Body className="CardButton">
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+          <Card.Body>
+            <button className="CardButton"><Card.Link href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank">Schedule With Me</Card.Link></button>
+            <button className="CardButton"><Card.Link href="https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/" target="_blank">*Take body type quiz*</Card.Link></button>
           </Card.Body>
         </Card>
       </Card>
@@ -124,8 +124,8 @@ const Plans = () => {
             <ListGroupItem>{card.list2}</ListGroupItem>
           </ListGroup>
           <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/ ">*Take body type quiz*</Card.Link>
+            <button className="CardButton"><Card.Link href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank">Schedule With Me</Card.Link></button>
+            <button className="CardButton"><Card.Link href="https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/" target="_blank">*Take body quiz*</Card.Link></button>
           </Card.Body>
         </Card>
       </Card>

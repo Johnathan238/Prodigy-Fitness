@@ -14,6 +14,7 @@
     align-items: center;
     margin: 15px;
     padding: 15px;
+    text-decoration: none;
     /* background-color: #5295ffe0; */
 }
 
@@ -26,6 +27,7 @@
     transition: transform 0.5s;
     color: #959595;
     background-color: #5295ffe0;
+    text-decoration: none;
     font-weight: 400;
     font-size: 15px;
 }
@@ -48,17 +50,26 @@
     margin: 30px 0 20px 0;
 }
 
-/* .CardButton{
-    width: 70%;
-    background-color: #369be6;
-    color: #fff;
-    text-transform: uppercase;
+.CardButton{
+    background-color: #54f092;
     border: none;
-    border-radius: 3px;
-    padding: 10px;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.1;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.5s, box-shadow 0.5s;
-} */
+}
+
+.CardButton:hover {
+    opacity: 1;
+}
 
 @media screen and (max-width: 768px) {
 
