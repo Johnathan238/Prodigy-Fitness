@@ -35,7 +35,7 @@ const Header = () => {
           </Link>
 
           
-            <li className="nav__item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank">Schedule With Me</a></li>
+            <li className="nav__item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank" className="nav__link">Schedule With Me</a></li>
           
           
           
