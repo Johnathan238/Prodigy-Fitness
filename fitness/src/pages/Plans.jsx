@@ -1,7 +1,6 @@
 // import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import { Card,  ListGroup, ListGroupItem } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
 import './Plans.css'
 
 const Plans = () => {

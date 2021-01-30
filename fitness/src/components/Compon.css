@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 /* Custom Properties, update these for your own design */
@@ -151,6 +152,7 @@ nav{
   color: #f4eaae;
   width: 50%;
   list-style: none;
+  text-decoration: none;
   /* height: 100%; */
   justify-content: space-around;
   align-items: center;
