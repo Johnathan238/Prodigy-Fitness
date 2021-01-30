@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   text-decoration: none;
+=======
+  /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+>>>>>>> 63f31510d67316bd6308de97075d0cc175407d67
 }
 
 /* Custom Properties, update these for your own design */
