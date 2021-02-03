@@ -1,5 +1,6 @@
 import React from 'react'
 import './Compon.css'
+import styled from "styled-components"
 import { Link } from 'react-router-dom'
 
 
@@ -12,6 +13,7 @@ const NavBarContainer = styled.div`
   align-items: center;
   padding: 0 1.5em;
 `
+const 
 
 // const Header = () => {
 //   return (
