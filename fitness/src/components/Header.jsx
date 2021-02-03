@@ -12,8 +12,28 @@ const NavBarContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 1.5em;
-`
-const 
+`;
+const LeftSide = styled.div`
+  display: flex;
+
+`;
+
+const MiddleSide = styled.div`
+  display: flex;
+  flex: 2;
+`;
+
+const RightSide = styled.div`
+  display: flex;
+`;
+
+export function Navbar(props) {
+  return <NavBarContainer>
+    <LeftSide></LeftSide>
+    <MiddleSide></MiddleSide>
+    <RightSide></RightSide>
+  </NavBarContainer>
+}
 
 // const Header = () => {
 //   return (
