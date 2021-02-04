@@ -10,7 +10,7 @@ const NavBarContainer = styled.div`
   width: 100%;
   height: 60px;
   box-shadow: 0 1px 3px  #0f0f0f;
-  opacity: 0.1;
+  // opacity: 0.1;
   display: flex;
   align-items: center;
   padding: 0 1.5em;
