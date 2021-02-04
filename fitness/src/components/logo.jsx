@@ -31,5 +31,8 @@ const LogoText = styled.h2`
 export function Logo(props){
     return <LogoWrapper>
         <LogoImg><img src={ProdigyFitnessImg} alt="Prodigy-Fitness" /></LogoImg>
+        <LogoText>Prodigy Fitness</LogoText>
     </LogoWrapper>
 }
+
+export default Logo

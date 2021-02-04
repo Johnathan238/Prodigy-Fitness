@@ -2,6 +2,8 @@ import React from 'react'
 import './Compon.css'
 import styled from "styled-components"
 import { Link } from 'react-router-dom'
+import Logo from './Logo'
+
 
 
 const NavBarContainer = styled.div`
@@ -28,12 +30,18 @@ const RightSide = styled.div`
 `;
 
 export function Navbar(props) {
-  return <NavBarContainer>
-    <LeftSide></LeftSide>
+  return (
+  <NavBarContainer>
+    <LeftSide>
+      <Logo />
+      </LeftSide>
     <MiddleSide></MiddleSide>
     <RightSide></RightSide>
   </NavBarContainer>
+  )
 }
+
+export default Navbar
 
 // const Header = () => {
 //   return (
