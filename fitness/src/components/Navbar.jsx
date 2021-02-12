@@ -3,6 +3,7 @@ import './Compon.css'
 import styled from "styled-components"
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
+import NavLinks from './Navlinks'
 
 
 
@@ -32,10 +33,15 @@ const RightSide = styled.div`
 export function Navbar(props) {
   return (
   <NavBarContainer>
+
     <LeftSide>
       <Logo />
-      </LeftSide>
-    <MiddleSide></MiddleSide>
+    </LeftSide>
+
+    <MiddleSide>
+      <NavLinks />
+    </MiddleSide>
+    
     <RightSide></RightSide>
   </NavBarContainer>
   )
