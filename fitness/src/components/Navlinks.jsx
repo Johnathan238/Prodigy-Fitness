@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const NavLinksContainer = styled.div`
     height: 100%;
@@ -26,20 +27,22 @@ const LinkItem = styled.li`
     display: flex;
 `;
 
-const Link = styled.a`
+const Links = styled.a`
     text-decoration: none;
-    color: inherit;
+    color: #222;
 `;
 
 export function NavLinks(prop){
     return <NavLinksContainer>
         <LinksWrapper>
             <LinkItem>
-                <Link href="#">Plans</Link>
+                <Link to='Plans'>
+                    <Links href="#">Plans</Links>
+                </Link>
             </LinkItem>
 
             <LinkItem>
-                <Link href="#">Schedule With Me</Link>
+                <Links href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link">Schedule With Me</Links>
             </LinkItem>
         </LinksWrapper>
     </NavLinksContainer>
