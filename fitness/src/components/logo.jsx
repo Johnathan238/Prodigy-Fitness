@@ -10,18 +10,18 @@ const LogoWrapper = styled.div`
 
 const LogoImg = styled.div`
     width: 29px;
-    height: 29px
+    height: 29px;
 
     img {
-        width: 100%
-        height: 100%
+        width: 100%;
+        height: 100%;
     }
 `;
 
 const LogoText = styled.h2`
     font-size: 16px;
     margin: 0px;
-    margin-left: 4px
+    margin-left: 4px;
     color: #222;
     font-weight: 500px;
 `;

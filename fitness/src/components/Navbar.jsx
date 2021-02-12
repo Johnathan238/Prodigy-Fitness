@@ -11,7 +11,7 @@ const NavBarContainer = styled.div`
   width: 100%;
   height: 60px;
   box-shadow: 0 1px 3px  #0f0f0f;
-  // opacity: 0.1;
+  /* opacity: 0.1; */
   display: flex;
   align-items: center;
   padding: 0 1.5em;
@@ -24,6 +24,8 @@ const LeftSide = styled.div`
 const MiddleSide = styled.div`
   display: flex;
   flex: 2;
+  height: 100%;
+  justify-content: center;
 `;
 
 const RightSide = styled.div`
@@ -41,7 +43,7 @@ export function Navbar(props) {
     <MiddleSide>
       <NavLinks />
     </MiddleSide>
-    
+
     <RightSide></RightSide>
   </NavBarContainer>
   )
