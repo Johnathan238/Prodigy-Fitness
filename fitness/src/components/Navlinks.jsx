@@ -21,9 +21,26 @@ const LinkItem = styled.li`
     font-weight: 500;
     font-size: 14px;
     align-items: center;
-    justify-content: center;
+    justify-content: center;aa
+`;
+
+const Link = styled.a`
+    text-decoration: none;
+    color: inherit
 `;
 
 export function NavLinks(prop){
+    return <NavLinksContainer>
+        <LinksWrapper>
+            <LinkItem>
+            <Link href="#">Plans</Link>
+            </LinkItem>
 
+            <LinkItem>
+            <Link href="#">Schedule With Me</Link>
+            </LinkItem>
+        </LinksWrapper>
+    </NavLinksContainer>
 }
+
+export default NavLinks
