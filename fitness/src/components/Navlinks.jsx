@@ -6,6 +6,8 @@ const NavLinksContainer = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
+    text-decoration: 'none';
+    color: black;
 `;
 
 const LinksWrapper = styled.ul`
@@ -14,6 +16,10 @@ const LinksWrapper = styled.ul`
     display: flex;
     height: 100%;
     list-style: none;
+    text-decoration: 'none';
+    color: black;
+    background-color: #fff;
+    width: 100%;
 `;
 
 const LinkItem = styled.li`
@@ -22,9 +28,18 @@ const LinkItem = styled.li`
     color: #222;
     font-weight: 500;
     font-size: 14px;
+    text-decoration: 'none';
+    color: black;
     align-items: center;
     justify-content: center;
     display: flex;
+    border-top: 2px solid transparent;
+    transition: all 200ms ease-in-out;
+
+    &:hover,  &:link {
+        border-top: 2px solid #2ecc71;
+        text-decoration: none;
+    }
 `;
 
 const Links = styled.a`
@@ -42,7 +57,7 @@ export function NavLinks(prop){
             </LinkItem>
 
             <LinkItem>
-                <Links href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link">Schedule With Me</Links>
+                <Links href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank">Schedule With Me</Links>
             </LinkItem>
         </LinksWrapper>
     </NavLinksContainer>
