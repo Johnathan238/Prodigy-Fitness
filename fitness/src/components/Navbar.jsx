@@ -1,52 +1,51 @@
 import React from 'react'
-import './Compon.css'
-import styled from "styled-components"
-import { Link } from 'react-router-dom'
-import Logo from './Logo'
-import NavLinks from './Navlinks'
+import { useMediaQuery } from 'react'
+import styled from 'styled-components'
+import { Logo } from './Logo'
+// import { Accessibility } from "./accessibility";
+import { NavLinks } from './NavLinks'
+import { DeviceSize } from './responsive'
+import { MobileNavLinks } from './mobileNavLinks'
 
-
-
-const NavBarContainer = styled.div`
+const NavbarContainer = styled.div`
   width: 100%;
   height: 60px;
-  box-shadow: 0 1px 3px  #0f0f0f;
-  /* opacity: 0.1; */
+  box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
   display: flex;
   align-items: center;
   padding: 0 1.5em;
 `;
-const LeftSide = styled.div`
-  display: flex;
 
+const LeftSection = styled.div`
+  display: flex;
 `;
 
-const MiddleSide = styled.div`
+const MiddleSection = styled.div`
   display: flex;
   flex: 2;
   height: 100%;
   justify-content: center;
 `;
 
-const RightSide = styled.div`
+const RightSection = styled.div`
   display: flex;
 `;
 
 export function Navbar(props) {
+  const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile });
+
   return (
-  <NavBarContainer>
-
-    <LeftSide>
-      <Logo />
-    </LeftSide>
-
-    <MiddleSide>
-      <NavLinks />
-    </MiddleSide>
-
-    <RightSide></RightSide>
-  </NavBarContainer>
-  )
+    <NavbarContainer>
+      <LeftSection>
+        <Logo />
+      </LeftSection>
+      <MiddleSection>{!isMobile && <NavLinks />}</MiddleSection>
+      <RightSection>
+        {/* {!isMobile } */}
+        {isMobile && <MobileNavLinks />}
+      </RightSection>
+    </NavbarContainer>
+  );
 }
 
 export default Navbar
