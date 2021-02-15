@@ -4,3 +4,4 @@ export const DeviceSize = {
     laptop: 1324,
     desktop: 2024,
 };
+

@@ -1,6 +1,6 @@
-import React, { useState } from "react"
-import styled from "styled-components"
-import { MenuToggle } from "./menuToggle"
+import React, { useState } from 'react'
+import styled from 'styled-components'
+import { MenuToggle } from './menuToggle'
 import { Link } from 'react-router-dom'
 
 const NavLinksContainer = styled.div`
@@ -67,4 +67,4 @@ export function MobileNavLinks(props) {
     );
 }
 
-export default MobileNavLinks
+// export default MobileNavLinks

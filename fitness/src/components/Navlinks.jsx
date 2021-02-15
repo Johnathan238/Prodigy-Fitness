@@ -31,7 +31,7 @@ const LinkItem = styled.li`
     text-decoration: 'none';
     color: black;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
     border-top: 2px solid transparent;
     transition: all 200ms ease-in-out;
