@@ -24,6 +24,7 @@ const LogoImg = styled.div`
 //     margin-left: 4px;
 //     color: #222;
 //     font-weight: 500px;
+//     justify-content: flex-end;
 // `;
 
 // Rendering Logo Component
