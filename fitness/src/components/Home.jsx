@@ -19,6 +19,7 @@ export default class Home extends Component {
         Remember, train smart, not hard, <b>Quality-Over-Quantity</b></span>
 
         <div className="Video">
+          <h3>My 2 year body transformation SKINNY to RIPPED</h3>
           <ReactPlayer url="https://youtu.be/_caukWh354s"/>
         </div>
 
