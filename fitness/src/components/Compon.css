@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   /* position: relative; */
@@ -31,6 +31,11 @@
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
 
 @media (min-width: 800px) {
   :root {
@@ -40,6 +45,8 @@
     --fs-body: 1.125rem;
   }
 }
+
+
 
 /* General styles */
 
@@ -59,61 +66,29 @@
 
 
 .Home-Wrapper{
-  /* box-shadow: -4px 8px 12px 0px rgba(179,179,179,1); */
   display: grid;
-  /* grid-template-columns: 2fr 1fr 1fr; */
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 100px 200px 100px;
-  /* border: 1px solid silver; */
   margin: 10px;
   padding: 10px;
-  /* height: max-content; */
-  /* position: relative; */
   justify-items: center;
-  /* transition: transform 0.5s; */
-  /* color: #959595; */
-  /* background-color: #003c9c; */
   text-decoration: none;
-  /* font-weight: 500; */
   font-size: 20px;
 }
 
 .Video{
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
-  /* display: block;  */
-  /* display: flex; 
-  margin: auto; 
-  margin-left: 20vw; transform: translate(60%);
-  justify-content: center; */
-  /* display: block; */
-  /* margin-bottom: 4em; */
   display: grid;
-  /* grid-template-columns: 2fr 1fr 1fr; */
   grid-column: 1 / span 2;
     grid-row: 5 / 5;
     position: relative;
     padding-top: 10rem;
     justify-items: center;
     align-items: center;
-    /* left: -1em; */
-    /* width: calc(100% + 2em); */
-    /* padding-left: 1em; */
-    /* padding-right: calc(200px + 4em); */
-    /* max-width: 1000px; */
-  /* width: 2em;
-  height: 1px; */
-  /* margin: 0.5em auto 1em; */
-  /* background: peru; */
-  /* opacity: 0.25; */
-  /* max-width: 500px;
-  margin: 0 auto; */
 }
 
 @media screen and (max-width: 768px) {
 
-    .Home-Wrapper, .Video {
+    .Home-Wrapper {
         /* display: grid;
         justify-items: left;
         grid-gap: 6px;
@@ -136,7 +111,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .Home-Wrapper, .Video {
+    .Home-Wrapper {
         /* display: flex;
         justify-items: left;
         align-items: center;
@@ -178,10 +153,6 @@
 .footer a {
   color: inherit;
   text-decoration: none;
-}
-
-.footer__link {
-  /* font-weight: var(--fw-bold); */
 }
 
 .footer__link:hover,
