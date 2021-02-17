@@ -90,6 +90,17 @@ h3 {
   font-size: 20px;
 }
 
+.Video{
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
+  /* display: block;  */
+  display: flex; 
+  margin: auto; 
+  margin-left: 20vw; transform: translate(60%);
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
 
     .Home-Wrapper {
