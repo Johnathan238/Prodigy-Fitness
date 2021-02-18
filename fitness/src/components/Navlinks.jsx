@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import './Compon.css'
 
 const NavLinksContainer = styled.div`
     height: 100%;
@@ -28,7 +29,7 @@ const LinkItem = styled.li`
     color: #222;
     font-weight: 500;
     font-size: 14px;
-    text-decoration: 'none';
+    text-decoration: none;
     color: black;
     align-items: center;
     justify-content: flex-end;
@@ -43,8 +44,8 @@ const LinkItem = styled.li`
 `;
 
 const Links = styled.a`
+    color: #CAE9FF;
     text-decoration: none;
-    color: #222;
 `;
 
 export function NavLinks(prop){

@@ -180,10 +180,12 @@
 .footer__link:hover,
 .social-list__link:hover {
   opacity: 0.7;
+  color: inherit;
 }
 
 .footer__link:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 .social-list {
