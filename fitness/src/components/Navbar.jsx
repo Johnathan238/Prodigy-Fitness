@@ -14,10 +14,13 @@ const NavbarContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 1.5em;
+  background-color: #5FA8D3;
+  text-decoration: none;
 `;
 
 const LeftSection = styled.div`
   display: flex;
+  text-decoration: none;
 `;
 
 const MiddleSection = styled.div`
@@ -25,10 +28,12 @@ const MiddleSection = styled.div`
   flex: 2;
   height: 100%;
   justify-content: flex-end;
+  text-decoration: none;
 `;
 
 const RightSection = styled.div`
   display: flex;
+  text-decoration: none;
 `;
 
 export function Navbar(props) {

@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import './Compon.css'
+
 
 const NavLinksContainer = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
-    text-decoration: 'none';
+    text-decoration: none;
     color: black;
 `;
 
@@ -17,9 +17,9 @@ const LinksWrapper = styled.ul`
     display: flex;
     height: 100%;
     list-style: none;
-    text-decoration: 'none';
+    text-decoration: none;
     color: black;
-    background-color: #fff;
+    /* background-color: #62B6CB; */
     width: 100%;
 `;
 
@@ -30,7 +30,7 @@ const LinkItem = styled.li`
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
-    color: black;
+    color: #62B6CB;
     align-items: center;
     justify-content: flex-end;
     display: flex;
@@ -38,13 +38,13 @@ const LinkItem = styled.li`
     transition: all 200ms ease-in-out;
 
     &:hover,  &:link {
-        border-top: 2px solid #2ecc71;
+        border-top: 2px solid #1B4965;
         text-decoration: none;
     }
 `;
 
 const Links = styled.a`
-    color: #CAE9FF;
+    color: #1B4965;
     text-decoration: none;
 `;
 
