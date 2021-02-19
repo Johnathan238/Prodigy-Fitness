@@ -68,16 +68,31 @@
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    border: 0;
+  outline: 0;
+  margin: 2px;
+  padding: 5px 1em;
+  color: #000;
+  font-size: 13px;
+  /* font-weight: 600; */
+  border-radius: 10px;
+  /* background-color: #62b6cb;
+  background-image: linear-gradient(to right, transparent 0%, #5fa8d3 100%); */
+  /* background: rgb(202,233,255);
+    background: radial-gradient(circle, rgba(202,233,255,1) 0%, rgba(98,182,203,1) 100%); */
+  /* transition: all 240ms ease-in-out;
+  cursor: pointer;
+  text-decoration: none; */
 }
 
 .Card.Body{
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
 .Card.Link{
     text-decoration: none;
-    color: black;
+    color: #000;
     cursor:pointer; 
 }
 
@@ -86,6 +101,8 @@
     text-decoration: none;
     color: black;
     cursor:pointer; 
+    background-color: #5fdcff;
+
 }
 
 @media screen and (max-width: 768px) {
