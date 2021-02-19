@@ -3,9 +3,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Button = styled.div`
-    /* z-index: 99;
-    cursor: pointer; */
-    /* background: var(--clr-accent); */
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -16,12 +13,6 @@ const Button = styled.div`
     -moz-user-select: none;
     -ms-user-select: none;
     cursor: pointer;
-    /* position: absolute; */
-    /* top: 18px; */
-    /* left: 15px; */
-    /* width: 50px;
-    height: 50px;
-    border-radius: 50%; */
     background: transparent;
 `
 
@@ -70,30 +61,6 @@ export function MenuToggle({ toggle, isOpen }) {
             transition={transition}
         />
             </svg>
-            {/* <svg width="23" height="23" viewBox="0 0 23 23">
-            <Path
-                variants={{
-                    closed: { d: "M 2 2.5 L 20 2.5" },
-                    open: { d: "M 3 16.5 L 17 2.5" },
-                }}
-                transition={transition}
-            />
-            <Path
-                d="M 2 9.423 L 20 9.423"
-                variants={{
-                    closed: { opacity: 1 },
-                    open: { opacity: 0 },
-                }}
-                transition={transition}
-            />
-            <Path
-                variants={{
-                    closed: { d: "M 2 16.346 L 20 16.346" },
-                    open: { d: "M 3 2.5 L 17 16.346" },
-                }}
-                transition={transition}
-            />
-        </svg> */}
         </Button>
     )
 }

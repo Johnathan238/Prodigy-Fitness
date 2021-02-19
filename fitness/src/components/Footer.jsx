@@ -4,9 +4,9 @@ import './Compon.css'
 
 
 const Footer = () => {
-  return (
+return (
     <footer className="footer">
-       <a href="mailto:mbrisson23@yahoo.com" className="footer__link">mbrisson23@yahoo.com</a>
+    <a href="mailto:mbrisson23@yahoo.com" className="footer__link">mbrisson23@yahoo.com</a>
         <ul className="social-list">
             <li className="social-list__item">
                 <a className="social-list__link" href="https://youtu.be/_caukWh354s" target="_blank">
@@ -24,8 +24,15 @@ const Footer = () => {
                 </a>
             </li>
         </ul>
+
+        <marquee>
+            <div className="footer--details-container sei-developers">
+                <p className="footer--text">&copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness
+                - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness</p>
+            </div>
+        </marquee>
     </footer>
-  )
+    )
 }
 
 export default Footer;
