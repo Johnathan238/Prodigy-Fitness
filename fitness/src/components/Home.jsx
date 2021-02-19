@@ -1,6 +1,6 @@
 import React from 'react'
 import { Component } from 'react'
-import ReactPlayer from 'react-player'
+import Iframe from 'react-iframe'
 import './Compon.css'
 
 
@@ -20,7 +20,7 @@ export default class Home extends Component {
 
         <div className="Video">
           <h3>My 2 year body transformation SKINNY to RIPPED</h3>
-          <ReactPlayer url="https://youtu.be/_caukWh354s"/>
+          <Iframe width="560" height="315" src="https://www.youtube.com/embed/_caukWh354s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
         </div>
 
       </div>

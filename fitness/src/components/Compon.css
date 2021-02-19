@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-*{
+* a li{
   /* margin: 0;
   padding: 0; */
   /* box-sizing: border-box; */
@@ -95,6 +95,7 @@
     padding-top: 10rem;
     justify-items: center;
     align-items: center;
+    background-position: center;
 
 }
 
@@ -123,6 +124,16 @@
         justify-items: center;
         align-items: center;
         background-color: #5295ffe0;
+    }
+
+    .Before--After{
+      width: 100%;
+      height: auto;
+    }
+
+    .Video{
+      width: 200%;
+  margin-left: -50%;
     }
 }
 
@@ -174,16 +185,23 @@
   /* min-height: 100vh; */
   /* display: flex; */
   /* flex-direction: column; */
-  margin-top: 4%;
-  color: white;
+  margin-top: 5%;
   width: 100%;
   /* padding-top: 100%; */
-  height: 40 0px;
-  box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
+  /* height: 250px; */
+  /* box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13); */
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
   background-color: #5FA8D3;
+  /* width: 100%; */
+  height: 12rem;
+  box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
+  /* display: flex; */
+  align-items: center;
+  padding: 0 1.5em;
+  background-color: #5FA8D3;
+  text-decoration: none;
 }
 
 .footer a {
@@ -207,7 +225,6 @@
   display: flex;
   justify-content: center;
   margin: 2em 0 0;
-  /* padding: 0; */
 }
 
 .social-list__item {

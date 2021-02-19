@@ -8,7 +8,6 @@ const NavLinksContainer = styled.div`
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
 `;
 
 const LinksWrapper = styled.ul`
@@ -18,7 +17,6 @@ const LinksWrapper = styled.ul`
     height: 100%;
     list-style: none;
     text-decoration: none;
-    color: black;
     /* background-color: #62B6CB; */
     width: 100%;
 `;
@@ -26,7 +24,7 @@ const LinksWrapper = styled.ul`
 const LinkItem = styled.li`
     height: 100%;
     padding: 0 1.1em;
-    color: #222;
+    /* color: #222; */
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
@@ -39,13 +37,20 @@ const LinkItem = styled.li`
 
     &:hover,  &:link {
         border-top: 2px solid #1B4965;
+        color: #000;
         text-decoration: none;
     }
 `;
 
 const Links = styled.a`
-    color: #1B4965;
+    color: black;
     text-decoration: none;
+
+    &:hover, &:focus, &:active {
+        border-top: 2px solid #1B4965;
+        color: #000;
+        text-decoration: underline;
+    }
 `;
 
 export function NavLinks(prop){
@@ -53,7 +58,7 @@ export function NavLinks(prop){
         <LinksWrapper>
             <LinkItem>
                 <Link to='Plans'>
-                    <Links href="#">Plans</Links>
+                    <Links>Plans</Links>
                 </Link>
             </LinkItem>
 
