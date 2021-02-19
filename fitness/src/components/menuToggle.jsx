@@ -3,11 +3,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Button = styled.div`
-  width: 2em;
-  height: 3px;
-  border-radius: 1em;
-  transition: transform 250ms ease-in-out;
-   outline: none;
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+    outline: none;
     border: none;
     -webkit-user-select: none;
     -moz-user-select: none;

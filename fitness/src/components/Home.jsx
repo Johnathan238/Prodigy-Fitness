@@ -30,4 +30,3 @@ export default class Home extends Component {
   }
 }
 
-{/* <a href="https://ibb.co/VDm66fm"><img src="https://i.ibb.co/5vFZZbF/EBD0-B9-EC-2-D97-4-D88-BD4-D-694-DC5-CDFBC5.jpg" alt="EBD0-B9-EC-2-D97-4-D88-BD4-D-694-DC5-CDFBC5" border="0"></a> */}

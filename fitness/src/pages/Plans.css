@@ -25,7 +25,8 @@
     border: 1px solid silver;
     height: max-content;
     transition: transform 0.5s;
-    color: #959595;
+    /* color: #959595; */
+    color: #1B4965;
     background-color: #5FA8D3;
     text-decoration: none;
     font-weight: 400;
@@ -40,7 +41,8 @@
 
 .list-group-flush{
     padding: 0 1rem;
-    color: #959595;
+    color: #3F8098;
+    /* color: #959595; */
     font-weight: 400;
     font-size: 15px;
 }
@@ -53,7 +55,6 @@
 .CardButton{
     background-color: #5FA8D3;
     border: none;
-    text-decoration-color: white;
     padding: 3px 10px;
     border-radius: 20%;
     text-align: center;
@@ -66,20 +67,26 @@
     text-decoration: none;
     cursor: pointer;
     border: 0;
-  outline: 0;
-  margin: 2px;
-  padding: 5px 1em;
-  color: #000;
-  font-size: 13px;
-  border-radius: 10px;
+    outline: 0;
+    margin: 2px;
+    padding: 5px 1em;
+    color: #000;
+    font-size: 13px;
+    border-radius: 10px;
 }
 
-.Card.Body{
+.Buttons{
     color: #000;
     text-decoration: none;
 }
 
-.Card.Link{
+.Buttons:link {
+    /* border-top: 2px solid #1b4965; */
+    color: #000;
+    text-decoration: none;
+    }
+
+.CardLink{
     text-decoration: none;
     color: #000;
     cursor:pointer; 
@@ -88,10 +95,9 @@
 .CardButton:hover {
     opacity: 1;
     text-decoration: none;
-    color: black;
-    cursor:pointer; 
-    background-color: #5fdcff;
-
+    color: peachpuff;
+    /* cursor:pointer;  */
+    background-color: #5FA8D3;
 }
 
 @media screen and (max-width: 768px) {
@@ -101,7 +107,7 @@
         display: grid;
         justify-items: center;
         align-items: center;
-        background-color: #5295ffe0;
+        /* background-color: #5295ffe0; */
     }
 }
 
@@ -112,7 +118,7 @@
         display: grid;
         justify-items: center;
         align-items: center;
-        background-color: #5295ffe0;
+        /* background-color: #5295ffe0; */
     }
 }
 

@@ -99,7 +99,7 @@ const Plans = () => {
             <ListGroupItem>{card.list5}</ListGroupItem>
             <ListGroupItem>{card.list6}</ListGroupItem>
           </ListGroup>
-          <Card.Body>
+          <Card.Body className="Buttons">
             <button className="CardButton"><Card.Link href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank">Schedule With Me</Card.Link></button>
             <button className="CardButton"><Card.Link href="https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/" target="_blank">*Take body type quiz*</Card.Link></button>
           </Card.Body>
