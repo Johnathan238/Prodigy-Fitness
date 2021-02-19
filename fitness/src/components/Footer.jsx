@@ -26,10 +26,9 @@ return (
         </ul>
 
         <marquee>
-            <div className="footer--details-container sei-developers">
                 <p className="footer--text">&copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness
-                - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness</p>
-            </div>
+                - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness 
+                - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness</p>
         </marquee>
     </footer>
     )

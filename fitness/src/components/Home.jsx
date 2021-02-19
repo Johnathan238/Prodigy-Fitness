@@ -9,10 +9,10 @@ export default class Home extends Component {
     return (
       <div className="Home-Wrapper">
         
-        <img className="Before--After" src="https://i.ibb.co/S0n3dvT/Before-After.jpg"
+        <img className="Before--After" src="https://i.ibb.co/5vFZZbF/EBD0-B9-EC-2-D97-4-D88-BD4-D-694-DC5-CDFBC5.jpg"
           alt="Before--After"
           height={500}
-          width={500} 
+          width={400} 
         />
 
         <span>Marck is a passionate and ambitious trainer in the fitness industry. His passion for fitness started a year after he began working out. He initially started working out because he was tired of being skinny and decided to make a change to his life. Fast forward to a year later and the changes he saw were tremendous, and that inspired him to get into the industry with hopes of helping as many people as he can do the same thing he did. Marck’s main goal is to help as many people as he can accomplish their desired body goals or reach a point where they are comfortable with how they look AND feel. Fitness to Marck is more than just physical or how you look but more so of how you feel mentally because mental health is extremely important in life especially in today’s age. Marck is currently pursuing his BA in Psychology which will benefit him a lot by giving him the resources of being able to understand people a lot better, by understanding how people’s mind works, Marck will be able to motivate YOU more efficiently.
@@ -29,3 +29,5 @@ export default class Home extends Component {
     )
   }
 }
+
+{/* <a href="https://ibb.co/VDm66fm"><img src="https://i.ibb.co/5vFZZbF/EBD0-B9-EC-2-D97-4-D88-BD4-D-694-DC5-CDFBC5.jpg" alt="EBD0-B9-EC-2-D97-4-D88-BD4-D-694-DC5-CDFBC5" border="0"></a> */}
