@@ -64,6 +64,7 @@ export function NavLinks(prop) {
                 </Link>
             </LinkItem>
 
+            <LinkItem>
                 <Link to="Plans">
                     <Links>Plans</Links>
                 </Link>
@@ -71,6 +72,11 @@ export function NavLinks(prop) {
 
             <LinkItem>
                 <Links href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link"target="_blank">Schedule With Me</Links>
+            </LinkItem>
+
+            {/* <Link to="/">
+                    <Links>MERCHANDISE</Links>
+                </Link> */}
             </LinkItem>
         </LinksWrapper>
     </NavLinksContainer>
