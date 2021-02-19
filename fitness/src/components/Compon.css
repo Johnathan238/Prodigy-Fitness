@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * a li{
-  /* margin: 0;
-  padding: 0; */
-  /* box-sizing: border-box; */
-  /* height: 90%; */
+
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  /* position: relative; */
-  /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+
 }
 
 /* Custom Properties */
@@ -49,38 +45,13 @@
 
 
 
-/* General styles */
-
-/* img {
-  display: block;
-  max-width: 100%;
-} */
-
-
-/* h2 {
-  font-size: var(--fs-h2);
-} */
-
-/* h3 {
-  font-size: var(--fs-h3);
-} */
-
-
 .Home-Wrapper{
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 100px 200px 100px;
-  margin: 10px;
-  padding: 10px;
-  justify-items: center;
-  text-decoration: none;
-  font-size: 20px; */
   min-height: 100%;
     display: grid;
-    /* grid-gap: 20px; */
+
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: row;
-    /* grid-gap: 100px; */
+
     justify-items: center;
     align-items: center;
     margin: 15px;
@@ -96,31 +67,15 @@
     justify-items: center;
     align-items: center;
     background-position: center;
+    
 
 }
 
 @media screen and (max-width: 768px) {
 
     .Home-Wrapper {
-        /* display: grid;
-        justify-items: left;
-        grid-gap: 6px;
-        margin: 5px;
-        padding: 5px;
-        font-size: 15px;
-        background-color: #5295ffe0; */
-        /* display: grid;
-        grid-gap: 20px;
-		    grid-template-columns: 300px auto px; */
-        /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    grid-gap: 1rem; */
-
-    /* height:100vh; */
-	/* display: grid;
-	grid-template-columns: 2fr ; */
-  display: grid;
-  grid-auto-flow: column;
+    display: grid;
+    grid-auto-flow: column;
         justify-items: center;
         align-items: center;
         background-color: #5295ffe0;
@@ -131,9 +86,11 @@
       height: auto;
     }
 
-    .Video{
-      width: 200%;
-  margin-left: -50%;
+    .Video Iframe{
+    
+    height:100%;
+    width:100%;
+    
     }
 }
 
