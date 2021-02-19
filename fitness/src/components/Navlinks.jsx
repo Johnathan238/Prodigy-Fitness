@@ -16,14 +16,12 @@ const LinksWrapper = styled.ul`
     height: 100%;
     list-style: none;
     text-decoration: none;
-  /* background-color: #62B6CB; */
     width: 100%;
 `;
 
 const LinkItem = styled.li`
     height: 100%;
     padding: 0 1.1em;
-  /* color: #222; */
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;

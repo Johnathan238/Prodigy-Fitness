@@ -1,7 +1,8 @@
 * {
     font-family: 'Lato';
     margin: 0px;
-    /* background-color: #5295ffe0; */
+    color: #000;
+    text-decoration: none;
 }
 
 .grid{
@@ -25,7 +26,6 @@
     border: 1px solid silver;
     height: max-content;
     transition: transform 0.5s;
-    /* color: #959595; */
     color: #1B4965;
     background-color: #5FA8D3;
     text-decoration: none;
@@ -42,7 +42,6 @@
 .list-group-flush{
     padding: 0 1rem;
     color: #3F8098;
-    /* color: #959595; */
     font-weight: 400;
     font-size: 15px;
 }
@@ -81,7 +80,6 @@
 }
 
 .Buttons:link {
-    /* border-top: 2px solid #1b4965; */
     color: #000;
     text-decoration: none;
     }
@@ -95,8 +93,6 @@
 .CardButton:hover {
     opacity: 1;
     text-decoration: none;
-    color: peachpuff;
-    /* cursor:pointer;  */
     background-color: #5FA8D3;
 }
 
@@ -107,7 +103,6 @@
         display: grid;
         justify-items: center;
         align-items: center;
-        /* background-color: #5295ffe0; */
     }
 }
 
@@ -118,7 +113,6 @@
         display: grid;
         justify-items: center;
         align-items: center;
-        /* background-color: #5295ffe0; */
     }
 }
 
