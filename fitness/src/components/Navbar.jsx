@@ -1,11 +1,23 @@
 import React from 'react'
-import { useMediaQuery } from 'react-responsive'
-import styled from 'styled-components'
-import { Logo } from './Logo'
-import { NavLinks } from './NavLinks'
-import { DeviceSize } from './responsive'
-import { MobileNavLinks } from './MobileNavLinks'
+import './Compon.css'
+// import { useMediaQuery } from 'react-responsive'
+// import styled from 'styled-components'
+// import { Logo } from './Logo'
+// import { NavLinks } from './NavLinks'
+// import { DeviceSize } from './responsive'
+// import { MobileNavLinks } from './MobileNavLinks'
 
+
+export function Navbar () {
+  return (
+    <nav className="navbar">
+      <ul className="navbar-nav"></ul>
+
+    </nav>
+  )
+}
+
+// export default Navbar
 // const NavbarContainer = styled.div`
 //   width: 100%;
 //   height: 90px;
@@ -53,4 +65,4 @@ import { MobileNavLinks } from './MobileNavLinks'
 // }
 
 
-// export default Navbar
+
