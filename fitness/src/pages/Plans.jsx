@@ -73,7 +73,7 @@ const Plans = () => {
       
       title: 'PERSONALIZED WORKOUT PLANS',
       text:
-        '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65  https://www.solutiontales.com/quiz/which-body-type-are-you-take-this-body-type-quiz-to-find-out/  ',
+        '*Take body type quiz* and I will create a custom workout plan exclusively for YOUR goals. One-time fee of $65 ',
       list1: 'HOME *ONE TIME FEE OF $23*',
       list2: 'GYM *ONE TIME FEE OF $27*',
     },
