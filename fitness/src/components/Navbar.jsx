@@ -1,4 +1,5 @@
 import React from 'react'
+import NavItem from './NavItem'
 import './Compon.css'
 // import { useMediaQuery } from 'react-responsive'
 // import styled from 'styled-components'
