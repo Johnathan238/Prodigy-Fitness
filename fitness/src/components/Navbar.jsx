@@ -9,10 +9,10 @@ import './Compon.css'
 // import { MobileNavLinks } from './MobileNavLinks'
 
 
-export function Navbar () {
+export function Navbar (props) {
   return (
     <nav className="navbar">
-      <ul className="navbar-nav"></ul>
+      <ul className="navbar-nav"> <NavItem /> </ul>
 
     </nav>
   )

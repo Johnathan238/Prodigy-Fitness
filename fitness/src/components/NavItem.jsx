@@ -1,4 +1,5 @@
 import React from 'react'
+import './Compon.css'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
@@ -53,10 +54,12 @@ import { Link } from 'react-router-dom'
 // }
 // `;
 
-export function NavItem(props) {
+export function NavItem() {
     return (
         <li className="nav-item">
-            <a href="#" className="icon-button"> {props.icon} </a>
+            <a href="#" className="icon-button"> 💪 </a>
+            <a href="#" className="icon-button"> 💪 </a>
+            <a href="#" className="icon-button"> 💪 </a>
 
         </li>
     // <NavLinksContainer>
