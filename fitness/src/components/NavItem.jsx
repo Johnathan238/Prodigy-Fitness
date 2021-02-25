@@ -74,31 +74,6 @@ export function NavItem(props) {
 
 
         </li>
-    // <NavLinksContainer>
-    //     <LinksWrapper>
-    //         <LinkItem>
-    //             <LinkItem>
-    //                 <Link to="/">
-    //                 <Links>PRODIGY FITNESS</Links>
-    //             </Link>
-    //         </LinkItem>
-
-    //         <LinkItem>
-    //             <Link to="Plans">
-    //                 <Links>Plans</Links>
-    //             </Link>
-    //         </LinkItem>
-
-    //         <LinkItem>
-    //             <Links href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link"target="_blank">Schedule With Me</Links>
-    //         </LinkItem>
-
-    //         {/* <Link to="/">
-    //                 <Links>MERCHANDISE</Links>
-    //             </Link> */}
-    //         </LinkItem>
-    //     </LinksWrapper>
-    // </NavLinksContainer>
     )
 }
 
