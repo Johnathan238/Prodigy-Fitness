@@ -1,6 +1,6 @@
 import React from 'react'
+import Logo from './Logo'
 import './Compon.css'
-import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 // const NavLinksContainer = styled.div`
@@ -54,9 +54,11 @@ import { Link } from 'react-router-dom'
 // }
 // `;
 
-export function NavItem() {
+
+export function NavItem(props) {
     return (
         <li className="nav-item">
+            <Logo />
 
             <Link to="/">
             <span className="icon-button"> 🦾 </span>
@@ -67,7 +69,7 @@ export function NavItem() {
             </Link>
 
             
-            <span href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank" className="icon-button"> 📅 </span>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank" className="icon-button"> 📅 </a>
             
 
 

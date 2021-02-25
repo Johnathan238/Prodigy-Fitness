@@ -106,7 +106,9 @@ a {
 
 .icon-button:hover{
   filter: brightness(1.2);
+  text-decoration: none;
 }
+
 
 /* Home  */
 

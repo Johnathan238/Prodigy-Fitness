@@ -6,11 +6,12 @@ import ProdigyFitnessImg from "../images/3e6397c8-387e-4d6d-bee2-c669df7db54a_20
 const LogoWrapper = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
 `;
 
 const LogoImg = styled.div`
-    width: 80px;
-    height: 80px;
+    width: 55px;
+    height: 55px;
 
     img {
         width: 100%;
@@ -29,12 +30,11 @@ const LogoImg = styled.div`
 
 // Rendering Logo Component
 
-export function Logo(props){
+export function Logo(){
     return <LogoWrapper>
 
         <Link to='/'>
             <LogoImg><img src={ProdigyFitnessImg} alt="Prodigy-Fitness" /></LogoImg>
-            {/* <LogoText>Prodigy Fitness</LogoText> */}
         </Link>
 
     </LogoWrapper>
