@@ -57,9 +57,19 @@ import { Link } from 'react-router-dom'
 export function NavItem() {
     return (
         <li className="nav-item">
-            <a href="#" className="icon-button"> 💪 </a>
-            <a href="#" className="icon-button"> 💪 </a>
-            <a href="#" className="icon-button"> 💪 </a>
+
+            <Link to="/">
+            <span className="icon-button"> 🦾 </span>
+            </Link>
+
+            <Link to="/Plans">
+            <span className="icon-button"> 💳 </span>
+            </Link>
+
+            
+            <span href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank" className="icon-button"> 📅 </span>
+            
+
 
         </li>
     // <NavLinksContainer>
