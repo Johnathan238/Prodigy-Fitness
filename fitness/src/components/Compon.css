@@ -16,6 +16,11 @@
   --border: 1px solid #474a4d;
   --border-radius: 8px;
   --speed: 500ms;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
 }
 
 ul {

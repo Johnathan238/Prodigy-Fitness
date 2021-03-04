@@ -131,7 +131,7 @@ const Plans = () => {
   }
 
   return (
-    <div className="grid">
+    <div className="grid"> <h1>Are You Ready to Become A New You  !</h1>
       {cardInfo.map(renderCard)} {HomePlans.map(renderHomeCard)}
     </div>
   )
