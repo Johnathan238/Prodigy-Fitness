@@ -70,9 +70,9 @@ a {
 
 .navbar{
   height: var(--nav-size);
-  background-color: var(--bg);
+  background-color: #33B9F2;
   padding: 0 1rem;
-  border-bottom: var(--border);
+  border-bottom: #ECF8FE;
 }
 
 .navbar-nav{
@@ -94,7 +94,7 @@ a {
   --button-size: calc(var(--nav-size) * 0.5);
   width: var(--button-size);
   height: var(--button-size);
-  background-color: #484a4d;
+  background-color: #159BD4;
   border-radius: 50%;
   padding: 5px;
   margin: 2px;
@@ -183,26 +183,21 @@ a {
 /* footer */
 
 .footer {
-
   margin-top: 5%;
   width: 100%;
-
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
-  background-color: #5FA8D3;
-
+  background-color: #33B9F2;
   height: 12rem;
   /* box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13); */
-
   align-items: center;
   padding: 0 1.5em;
-  background-color: #5FA8D3;
   text-decoration: none;
 }
 
 .footer a {
-  color: black;
+  color: #ECF8FE;
   text-decoration: none;
 }
 
@@ -234,6 +229,7 @@ a {
 
 marquee{
   font-size: small;
+  color: #ECF8FE;
 }
 
 .footer--text {
