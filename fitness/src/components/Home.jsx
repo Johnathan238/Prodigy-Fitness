@@ -38,6 +38,10 @@ class Home extends Component {
   render() {
     return (
       <div className="Home-Wrapper">
+       
+       {/* <div className="grid">
+          {PlanList.map(renderList)}
+        </div> */}
         
         <img className="Before--After" src="https://i.ibb.co/5vFZZbF/EBD0-B9-EC-2-D97-4-D88-BD4-D-694-DC5-CDFBC5.jpg"
           alt="Before--After"
