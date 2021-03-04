@@ -1,10 +1,40 @@
 import React from 'react'
 import { Component } from 'react'
+import { ListGroup, Button, ListGroupItem } from 'react-bootstrap'
 import Iframe from 'react-iframe'
 import './Compon.css'
 
+const PlanList = () => {
+  const List =[
+      {
+      title: 'HOME',
+      text: 
+        '1 on 1 Training: For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
+      list1:
+        'Online Coaching: For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
+      list2:
+        'Personalized Workout Plans: For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
+    }
+  ]
+}
 
-export default class Home extends Component {
+const renderList = (ListGroup, index) => {
+  return (
+  <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action active">
+    {ListGroupItem.title}
+    </button>
+    <button type="button" class="list-group-item list-group-item-action">{ListGroupItem.text}</button>
+    <button type="button" class="list-group-item list-group-item-action">{ListGroupItem.list1}</button>
+    <button type="button" class="list-group-item list-group-item-action">{ListGroupItem.list2}</button>
+</div>
+
+  )
+}
+
+
+
+class Home extends Component {
   render() {
     return (
       <div className="Home-Wrapper">
@@ -29,4 +59,6 @@ export default class Home extends Component {
     )
   }
 }
+
+export default Home
 
