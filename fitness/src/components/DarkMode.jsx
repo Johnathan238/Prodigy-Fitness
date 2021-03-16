@@ -17,7 +17,6 @@ function DarkMode() {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
             <StyledApp>
-                Hello World
                 <button onClick={() => themeToggler()}>Change Theme</button>
         </StyledApp>
     </ThemeProvider>
