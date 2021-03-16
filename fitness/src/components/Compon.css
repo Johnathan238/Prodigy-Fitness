@@ -35,7 +35,7 @@ a {
   padding: 0;
 }
 
-button{
+.btn{
   /* --button-size: calc(var(--nav-size));
   width: var(--button-size);
   height: var(--button-size);
@@ -48,7 +48,7 @@ button{
   align-items: center;
   justify-content: center;
   transition: filter 300ms; */
-  background-color: #159BD4;
+  /* background-color: #159BD4;
     border: none;
     padding: 3px 10px;
     border-radius: 20%;
@@ -67,7 +67,16 @@ button{
     padding: 5px 1em;
     color: #000;
     font-size: 13px;
-    border-radius: 10px;
+    border-radius: 10px; */
+    touch-callout: none;
+  user-select: none;
+  display: inline-block;
+  border: .2em solid;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.6;
+  color: #FFF;
 }
 
 /* NavBar */

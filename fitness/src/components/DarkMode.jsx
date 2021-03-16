@@ -19,7 +19,7 @@ function DarkMode() {
         <GlobalStyles />
             <StyledApp>
                 {/* <button onClick={() => themeToggler()}>Change Theme</button> */}
-                <button onClick={() => themeToggler()} type="button" class="btn btn-primary btn-sm">Small button</button>
+                <button onClick={() => themeToggler()} type="button" class="btn">Small button</button>
         </StyledApp>
     </ThemeProvider>
     );
