@@ -13,8 +13,11 @@ const PlanList = () => {
 
         li2:
             'For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
+
+        ti3: 'Personalized Workout Plans:',
+
         li3:
-            'Personalized Workout Plans: For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
+            'For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
         }
     ]
   
@@ -35,6 +38,7 @@ const PlanList = () => {
         <li class="list-group-item">{List.li1}</li>
         <li class="list-group-item active">{List.ti2}</li>
         <li class="list-group-item">{List.li2}</li>
+        <li class="list-group-item active">{List.ti3}</li>
         <li class="list-group-item">{List.li3}</li>
         {/* <li class="list-group-item"></li> */}
     </ul>
