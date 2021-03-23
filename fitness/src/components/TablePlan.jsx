@@ -4,11 +4,15 @@ import {  Active , ListGroupItem} from 'react-bootstrap'
 const PlanList = () => {
     const List =[
     {
-        title: 'HOME',
+        ti1: '1 on 1 Training:',
+
         li1: 
-          '1 on 1 Training: For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
+          'For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
+        
+        ti2: 'Online Coaching:',
+
         li2:
-            'Online Coaching: For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
+            'For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.',
         li3:
             'Personalized Workout Plans: For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
         }
@@ -27,8 +31,9 @@ const PlanList = () => {
     // </div>
 
     <ul class="list-group">
-        <li class="list-group-item active">{List.title}</li>
+        <li class="list-group-item active">{List.ti1}</li>
         <li class="list-group-item">{List.li1}</li>
+        <li class="list-group-item active">{List.ti2}</li>
         <li class="list-group-item">{List.li2}</li>
         <li class="list-group-item">{List.li3}</li>
         {/* <li class="list-group-item"></li> */}
