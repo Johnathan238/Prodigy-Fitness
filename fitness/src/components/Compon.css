@@ -194,6 +194,24 @@ a {
     }
 }
 
+.List{
+    min-height: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-flow: row;
+    grid-gap: 100px;
+    justify-items: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.list-group{
+  background-color: #159BD4;
+}
+
 /* footer */
 
 .footer {
