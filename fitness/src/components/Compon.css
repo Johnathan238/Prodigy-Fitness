@@ -209,7 +209,11 @@ a {
 }
 
 .list-group{
-  background-color: #159BD4;
+  background-color: #ffd54a;
+}
+
+.list-group-item active{
+  background-color: #ffd54a;
 }
 
 /* footer */
