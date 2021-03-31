@@ -1,5 +1,6 @@
+// import { button } from 'bootstrap'
 import React from 'react'
-import {  Active , ListGroupItem} from 'react-bootstrap'
+import {  Active , ListGroupItem, Button} from 'react-bootstrap'
 
 const PlanList = () => {
     const List =[
@@ -36,10 +37,13 @@ const PlanList = () => {
     <ul class="list-group">
         <li class="list-group-item active">{List.ti1}</li>
         <li class="list-group-item">{List.li1}</li>
+        <Button>Lets go</Button>
         <li class="list-group-item active">{List.ti2}</li>
         <li class="list-group-item">{List.li2}</li>
+        <Button>Lets go</Button>
         <li class="list-group-item active">{List.ti3}</li>
         <li class="list-group-item">{List.li3}</li>
+        <Button>Lets go</Button>
         {/* <li class="list-group-item"></li> */}
     </ul>
 
