@@ -195,7 +195,7 @@ a {
 }
 
 .List{
-    min-height: 100%;
+    /* min-height: 100%;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -205,7 +205,18 @@ a {
     align-items: center;
     margin: 15px;
     padding: 15px;
-    text-decoration: none;
+    text-decoration: none; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* grid-column: 1 / span 2; */
+    /* grid-row: 5 / 5; */
+    position: relative;
+    padding-top: 5rem;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+    height:100%;
+    width:100%;
 }
 
 .list-group{
