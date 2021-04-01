@@ -142,7 +142,7 @@ a {
 .Video{
   display: grid;
   grid-column: 1 / span 2;
-    grid-row: 5 / 5;
+    grid-row: 6 / 5;
     position: relative;
     padding-top: 5rem;
     justify-items: center;
@@ -150,7 +150,16 @@ a {
     background-position: center;
     height:100%;
     width:100%;
+}
 
+.Before--After{
+  display: grid;
+  grid-row: 2 / 3;
+}
+
+Span{
+  display: grid;
+  grid-row: 2 / 3;
 }
 
 @media screen and (max-width: 768px) {
