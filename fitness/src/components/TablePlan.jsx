@@ -39,17 +39,17 @@ const PlanList = () => {
         <li class="list-group-item active">{List.ti1}</li>
         <li class="list-group-item">{List.li1}</li>
         <Link to="/Plans">
-        <Button>Lets go</Button>
+        <Button className="Button">Lets go</Button>
         </Link>
         <li class="list-group-item active">{List.ti2}</li>
         <li class="list-group-item">{List.li2}</li>
         <Link to="/Plans">
-        <Button>Lets go</Button>
+        <Button className="Button">Lets go</Button>
         </Link>
         <li class="list-group-item active">{List.ti3}</li>
         <li class="list-group-item">{List.li3}</li>
         <Link to="/Plans">
-        <Button>Lets go</Button>
+        <Button className="Button">Lets go</Button>
         </Link>
         {/* <li class="list-group-item"></li> */}
     </ul>
