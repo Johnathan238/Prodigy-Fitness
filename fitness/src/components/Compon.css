@@ -141,15 +141,15 @@ a {
 
 .Video{
   display: grid;
-  grid-column: 1 / span 2;
-    grid-row: 6 / 5;
-    position: relative;
-    padding-top: 5rem;
-    justify-items: center;
-    align-items: center;
-    background-position: center;
-    height:100%;
-    width:100%;
+  grid-column: 2 / span 1;
+  grid-row: 6 / 5;
+  position: relative;
+  padding-top: 5rem;
+  justify-items: center;
+  align-items: center;
+  background-position: center;
+  height:100%;
+  width:100%;
 }
 
 .Before--After{
