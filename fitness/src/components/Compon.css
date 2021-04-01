@@ -207,25 +207,33 @@ a {
     padding: 15px;
     text-decoration: none; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   /* grid-column: 1 / span 2; */
     /* grid-row: 5 / 5; */
     position: relative;
-    padding-top: 5rem;
+    /* padding-top: 5rem;
     justify-items: center;
     align-items: center;
-    background-position: center;
+    background-position: center; */
     height:100%;
     width:100%;
+    /* background-color: #242526; */
 }
 
 .list-group{
-  background-color: #ffd54a;
+  background-color: #8BC6EC;
+  background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
 
-.list-group-item active{
-  background-color: #ffd54a;
+.list-group-item{
+  background-color: #8BC6EC;
+  background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
+
+/* li{
+  background-color: #8BC6EC;
+  background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); 
+} */
 
 /* footer */
 
