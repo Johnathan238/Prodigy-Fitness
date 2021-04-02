@@ -48,7 +48,7 @@ a {
 }
 
 .list-group-flush{
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     color: #2380A8;
     font-weight: 400;
     font-size: 15px;
