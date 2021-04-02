@@ -41,16 +41,19 @@ const PlanList = () => {
         <Link to="/Plans">
         <Button className="Button">Lets go</Button>
         </Link>
+        <Button className="Button"><a href="mailto:prodigyfitness21@gmail.com" className="footer__link">📧</a></Button>
         <li class="list-group-item active">{List.ti2}</li>
         <li class="list-group-item">{List.li2}</li>
         <Link to="/Plans">
         <Button className="Button">Lets go</Button>
         </Link>
+        <Button className="Button"><a href="mailto:prodigyfitness21@gmail.com" className="footer__link">📧</a></Button>
         <li class="list-group-item active">{List.ti3}</li>
         <li class="list-group-item">{List.li3}</li>
         <Link to="/Plans">
         <Button className="Button">Lets go</Button>
         </Link>
+        <Button className="Button"><a href="mailto:prodigyfitness21@gmail.com" className="footer__link">📧</a></Button>
         {/* <li class="list-group-item"></li> */}
     </ul>
 
