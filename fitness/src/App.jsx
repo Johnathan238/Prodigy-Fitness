@@ -4,10 +4,11 @@ import { Navbar } from './components/Navbar'
 import Footer from './components/Footer'
 import Plans from './pages/Plans'
 import { Route, Switch} from 'react-router-dom'
+import './App.css'
 
 function App() {
   return (
-    <div className="app" >
+    <div className="APP" >
       <Navbar />
       
       <Switch>
