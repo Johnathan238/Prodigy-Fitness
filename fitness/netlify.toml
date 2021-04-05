@@ -1,4 +1,0 @@
-[build]
-  base = "Prodigy-fitness/"
-  publish = "Prodigy-fitness/build/"
-  command = "npm start"
