@@ -61,7 +61,7 @@ const PlanList = () => {
     }
 
     return (
-    <div className="List"> <h1>Are You Ready to Become A New You  !</h1>
+    <div className="List"> <h1 className="title_1">Are You Ready to Become A New You  !</h1>
         {List.map(renderList)} 
     </div>
     )
