@@ -251,8 +251,8 @@ Span{
     .Home-Wrapper {
     display: grid;
     grid-auto-flow: column;
-        justify-items: center;
-        align-items: center;
+    justify-items: center;
+    align-items: center;
         /* background-color: #5295ffe0; */
     }
 
@@ -323,6 +323,26 @@ Span{
 .list-group-item{
   background-color: #8BC6EC;
   background: linear-gradient(-150deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .card {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .card {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
 }
 
 .Button{
