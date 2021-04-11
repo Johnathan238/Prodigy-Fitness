@@ -298,41 +298,21 @@ Span{
 }
 
 .Button{
-  /* background-color: #159BD4;
-    border: none;
-    padding: 3px 10px;
-    border-radius: 20%;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.1;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    margin: 2px;
-    padding: 5px 1em;
-    color: #000;
-    font-size: 13px;
-    border-radius: 10px; */
   --button-size: calc(var(--nav-size) * 0.5);
-  width: 100px;
+  width: 225px;
   height: var(--button-size);
   background-color: #159BD4;
   opacity: 0.1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  display: inline-block;
+  /* display: flexbox; */
   text-decoration: none;
   border-radius: 50%;
-  padding: 5px;
   margin: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  padding: 1rem;
   transition: filter 300ms;
 }
 
