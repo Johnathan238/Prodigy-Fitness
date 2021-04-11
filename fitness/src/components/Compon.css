@@ -283,6 +283,7 @@ Span{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -305,13 +306,11 @@ Span{
   opacity: 0.1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  /* display: flexbox; */
+  display: inline-block;
   text-decoration: none;
   border-radius: 50%;
+  position: sticky;
   margin: 2px;
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
   padding: 1rem;
   transition: filter 300ms;
 }
@@ -322,6 +321,8 @@ Span{
     color: #000;
     background-color: #66C8F2;
 }
+
+
 
 
 /* footer */
