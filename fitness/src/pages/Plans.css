@@ -35,7 +35,7 @@ a {
     height: max-content;
     transition: transform 0.5s;
     color: #159BD4;
-    /* background-color: #2380A8; */
+    background-color: #6dbab8;
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
@@ -48,7 +48,6 @@ a {
 }
 
 .list-group-flush{
-    /* padding: 0 1rem; */
     color: #2380A8;
     font-weight: 400;
     font-size: 15px;
