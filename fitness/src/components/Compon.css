@@ -120,39 +120,7 @@ h1:before {
 }
 
 .btn{
-  /* --button-size: calc(var(--nav-size));
-  width: var(--button-size);
-  height: var(--button-size);
-
-  background-color: #159BD4;
-  border-radius: 50%;
-  padding: 5px;
-  margin: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: filter 300ms; */
-  /* background-color: #159BD4;
-    border: none;
-    padding: 3px 10px;
-    border-radius: 20%;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.1;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    margin: 2px;
-    padding: 5px 1em;
-    color: #000;
-    font-size: 13px;
-    border-radius: 10px; */
-    touch-callout: none;
+  touch-callout: none;
   user-select: none;
   display: inline-block;
   border: .2em solid;
@@ -257,6 +225,7 @@ Span{
     }
 
     .Before--After{
+      grid-row: 2 / 2;
       width: 100%;
       height: auto;
     }
@@ -264,6 +233,11 @@ Span{
     .Video{
       padding-top: 2rem;
     }
+
+    Span{
+  display: grid;
+  grid-row: 3 / 3;
+}
 
     .Video Iframe{
       /* padding-top: 1rem; */
@@ -328,8 +302,9 @@ Span{
 @media screen and (max-width: 768px) {
 
 
-    .card {
+    .List {
         display: grid;
+        grid-row: 1 / 1;
         justify-items: center;
         align-items: center;
     }
@@ -338,7 +313,7 @@ Span{
 @media screen and (max-width: 320px) {
 
 
-    .card {
+    .List {
         display: grid;
         justify-items: center;
         align-items: center;
