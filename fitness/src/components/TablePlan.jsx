@@ -22,10 +22,10 @@ const PlanList = () => {
             'For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time. ',
         }
     ]
-  
-  
-  const renderList = (List, index) => {
-    return (
+
+
+    const renderList = (List, index) => {
+        return (
     // <div className="list-group">
     //     <button type="button" class="list-group-item list-group-item-action active">
     //     {ListGroupItem.title}

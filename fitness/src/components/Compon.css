@@ -108,9 +108,6 @@ h1:before {
 
 .navbar{
   height: var(--nav-size);
-  /* background-color: #33B9F2; */
-    /* background-color: #8BC6EC;
-  background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
   padding: 0 1rem;
   border-bottom: #ECF8FE;
 }
@@ -301,7 +298,7 @@ Span{
 }
 
 .Button{
-  background-color: #159BD4;
+  /* background-color: #159BD4;
     border: none;
     padding: 3px 10px;
     border-radius: 20%;
@@ -320,7 +317,23 @@ Span{
     padding: 5px 1em;
     color: #000;
     font-size: 13px;
-    border-radius: 10px;
+    border-radius: 10px; */
+  --button-size: calc(var(--nav-size) * 0.5);
+  width: 100px;
+  height: var(--button-size);
+  background-color: #159BD4;
+  opacity: 0.1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 300ms;
 }
 
 .Button:hover {
@@ -330,10 +343,6 @@ Span{
     background-color: #66C8F2;
 }
 
-/* li{
-  background-color: #8BC6EC;
-  background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); 
-} */
 
 /* footer */
 
@@ -343,9 +352,7 @@ Span{
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
-  /* background-color: #33B9F2; */
   height: 12rem;
-  /* box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13); */
   align-items: center;
   padding: 0 1.5em;
   text-decoration: none;
