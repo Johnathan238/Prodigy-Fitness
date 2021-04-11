@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card,  ListGroup, ListGroupItem } from 'react-bootstrap'
 import './Plans.css'
+import '../components/Compon.css'
 
 const Plans = () => {
   const cardInfo = [
@@ -131,7 +132,7 @@ const Plans = () => {
   }
 
   return (
-    <div className="grid"> <h1>Are You Ready to Become A New You  !</h1>
+    <div className="grid"> <h1 className="title_1">Are You Ready to Become A New You  !</h1>
       {cardInfo.map(renderCard)} {HomePlans.map(renderHomeCard)}
     </div>
   )

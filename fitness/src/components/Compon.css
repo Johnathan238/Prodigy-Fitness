@@ -35,7 +35,7 @@ a {
   padding: 0;
 }
 
-h1 {
+.title_1{
   position: relative;
   padding: 10px 0;
   border-bottom: 1px solid;
@@ -43,7 +43,30 @@ h1 {
   border-bottom-color: rgba(146, 146, 146, 0.2);
   background-color: rgba(224, 224, 224, 0.664);
   box-shadow: 0 2px 5px #66C8F2;
-  height: 180px;
+  height: 195px;
+}
+
+h3{
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(175, 175, 175);
+  border-bottom-color: rgba(146, 146, 146, 0.2);
+  background-color: rgba(224, 224, 224, 0.664);
+  box-shadow: 0 2px 5px #66C8F2;
+  height: 100px;
+}
+
+span{
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(175, 175, 175);
+  border-bottom-color: rgba(146, 146, 146, 0.2);
+  background-color: rgba(224, 224, 224, 0.664);
+  box-shadow: 0 2px 5px #66C8F2;
+  height: 700px;
+
 }
 
 h1:before {
@@ -73,6 +96,8 @@ h1:before {
   box-shadow: 0 2px 5px #66C8F2;
   height: 180px;
 } */
+
+
 
 
  /* h1{
