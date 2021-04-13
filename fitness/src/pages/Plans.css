@@ -33,7 +33,7 @@ a {
     border: 1px solid silver;
     height: max-content;
     transition: transform 0.5s;
-    color: #159BD4;
+    /* color: #159BD4; */
     background-color: #ffffff3b;
     text-decoration: none;
     font-weight: 400;
