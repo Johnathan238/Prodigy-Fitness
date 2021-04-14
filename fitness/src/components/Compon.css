@@ -312,6 +312,7 @@ Span{
   position: sticky;
   margin: 2px;
   padding: 1rem;
+  top: 1px;
   transition: filter 300ms;
 }
 
