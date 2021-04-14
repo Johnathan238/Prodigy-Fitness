@@ -301,7 +301,7 @@ Span{
 .Button{
   --button-size: calc(var(--nav-size) * 0.5);
   width: 225px;
-  height: var(--button-size);
+  height: 22px;
   background-color: #159BD4;
   opacity: 0.1;
   -webkit-transition: 0.3s;
