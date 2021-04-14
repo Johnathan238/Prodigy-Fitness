@@ -308,7 +308,7 @@ Span{
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   position: sticky;
   margin: 2px;
   padding: 1rem;
